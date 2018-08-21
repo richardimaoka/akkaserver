@@ -11,7 +11,8 @@ trait RestInterface extends Resources with MyImplicitExceptionHandler{
   // this is left null
   implicit def executionContext: ExecutionContext
 
-  lazy val imService = new ImageService
+  //This is where declared imageService from TensorFlowResource is now being initialized.
+  lazy val imageService = new ImageService
   val routes: Route =  imageRoutes
 }
 

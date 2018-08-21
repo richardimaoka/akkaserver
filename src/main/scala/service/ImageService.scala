@@ -4,6 +4,8 @@ import entities.Image
 import scala.concurrent.{ExecutionContext, Future}
 
 class ImageService(implicit val executionContext: ExecutionContext) {
+  println("ImageService initialized")
+  println(s"executionContext = $executionContext")
 
   //TODO: Be able to save and request the images first
   //Acting as our Database First

@@ -4,7 +4,7 @@
 		module="akkaserver$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180819065752"
+		publication="20180821201559"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

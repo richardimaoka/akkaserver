@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180819065749"/>
+		date="20180821201555"/>
 	<dependencies>
 		<module organisation="de.heikoseeberger" name="akka-http-json4s_2.12">
 			<revision name="1.16.0" status="release" pubdate="20170512112341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/hseeberger/akka-http-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
